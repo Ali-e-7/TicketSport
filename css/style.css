@@ -283,3 +283,31 @@
         font-weight: bolder;
         font-size: 18px; 
     }
+
+    
+    /* media queries */
+    
+    @media only screen and ( min-width : 995px) {
+
+        .search-head {
+            font-family: IranSans;
+            border-radius: 20px;
+            padding: 4px;
+            font-size: 12px;
+        }
+            .font-list {
+            font-family: IranSans;
+            font-size: 14px;
+        }
+    
+    }
+    @media only screen and ( max-width : 500px) {
+        .mycustom input[type=text] {
+            border: none;
+            width: 300px;
+            padding-right: 10px;
+            text-align:right;
+            font-family: Yekan;
+        }
+    }
+

@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./BootStrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>SportNews</title>
+</head>
+
+<body>
+
+    <!----------------------------NAVBAR_SECTION---------------------------------------->
+    <div class="container-fluid bg-img">
+        <div
+            class="container d-flex flex-column align-items-center justify-content-center flex-lg-row justify-content-lg-center p-0">
+            <!--Navbar-section-right-->
+            <div class="col-12 col-lg-6">
+                <nav class="navbar navbar-expand-sm">
+                    <form
+                        class="form-inline d-flex flex-column align-items-center justify-content-center flex-md-row justify-content-md-center"
+                        action="/action_page.php">
+                        <img src="./Img/images/berand-2.gif" class="mt-3 mr-2" alt="pic-brand">
+                        <input class="form-control mr-2 mr-lg-4 mt-3 mt-md-0 search-head" type="text"
+                            placeholder="سریع جستجو کن!">
+                    </form>
+                </nav>
+            </div>
+            <!--Navbar-section-left-->
+            <div class="col-12 col-lg-6 p-0">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#collapsibleNavbar">
+                        <i class="fa fa-chevron-circle-down" style="font-size:36px"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul
+                            class="navbar-nav font-list d-flex flex-column align-items-center flex-md-row justify-content-md-center">
+                            <li class="nav-item  mt-2 mr-1">
+                                <a class="nav-link" href="#">دسته بندی</a>
+                            </li>
+                            <li class="nav-item mt-2 mr-1">
+                                <a class="nav-link" href="#"> باشگاه ها </a>
+                            </li>
+                            <li class="nav-item mt-2 mr-1">
+                                <a class="nav-link" href="#"> وبلاگ</a>
+                            </li>
+                            <li class="nav-item mt-2 mr-1">
+                                <a class="nav-link" href="#">ارتباط با ما</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="profile mr-5 mt-1 pt-1 d-flex flex-md-row justify-content-md-center">
+                        <div class="img-pf ">
+                            <i class='fas fa-user-circle' style='font-size:24px'></i>
+                        </div>
+                        <div class="name-pf mr-2 mt-1 ">
+                            <span> ثبت نام | ورود </span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!------------ ROW_1 ------------>
+    <div class="container">
+        <div class="row mb-3 mt-5">
+
+            <!--------------- Right-Panel --------------->
+            <div class="col-r col-12 col-md-8">
+                <div class="BookMarkGame p-2">
+                    <section class="BookMarcIcon d-flex justify-content-start ">
+
+                        <i class='fas fa-bookmark' style='font-size:20px;color:white'></i>
+                    </section>
+                    <section class="BookMarkTeam d-flex justify-content-around p-5 mb-5">
+                        <img src="./Img/images/esteq.png" alt="esteqlal-pic">
+                        <img src="./Img/images/pers.png" alt="perspolic-pic">
+                    </section>
+                    <section class="pages d-flex justify-content-center">
+                        <div class="cricle"></div>
+                        <div class="cricle bg-success"></div>
+                        <div class="cricle"></div>
+                    </section>
+                </div>
+            </div>
+
+            <!--------------- Left-Panel --------------->
+
+            <div class="col-l col-12 col-md-4 mr-0">
+                <div class="BookMarkPanel">
+                    <div class="card border-0">
+                        <h5 class="card-text">ورزشگاه آزادی</h5>
+                        <p class="card-text">پرسپولیس / استقلال</p>
+                        <p class="card-text">شهرآورد دی ماه 97 </p>
+                        <span>
+                            <p class="card-text">تاریخ : 27 دی </p>
+                            <p class="card-text">ساعت : 15 : 30 </p>
+                        </span>
+                        <div class="star mt-4 d-flex justify-content-center align-items-center">
+                            <section class="col-6 star-icon pt-2">
+                                <span>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                            style="font-size: 20px;color: #6a6a6a;"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                            style="font-size: 20px;color: #6a6a6a;"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                            style="font-size: 20px;color: #c7c7c7;"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                            style="font-size: 20px;color: #c7c7c7;"></i></a>
+                                    <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                            style="font-size: 20px;color: #c7c7c7;"></i></a>
+                                </span>
+                                <span>
+                                    <p>شما به همراه 32 نفر رای داده اید</p>
+                                </span>
+                            </section>
+                            <section class="col-6 star-num">
+                                <span>
+                                    <h4 class="mb-0">25</h4>
+                                    <p>نظر برای این مسابقه</p>
+                                </span>
+                            </section>
+                        </div>
+
+                        <a href="#" class="btn btn-success d-block d-flex justify-content-between mb-3">
+
+                            <span> خرید بلیط</span>
+                            <i class='fas fa-angle-down'></i>
+
+                        </a>
+                        <div class="social d-flex justify-content-between align-items-center p-1">
+                            <span>باز نشر کنید</span>
+                            <span>
+                                <a href="#"><i class="fab fa-twitter ml-2 " style="font-size:20px;color: gray;"></i></a>
+                                <a href="#"><i class="fab fa-instagram ml-2"
+                                        style="font-size:20px;color: gray;"></i></a>
+                                <a href="#"><i class="fab fa-facebook ml-2 "
+                                        style="font-size:20px;color: gray;"></i></a>
+                                <a href="#"><i class="fab fa-telegram ml-2" style="font-size:20px;color: gray;"></i></a>
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content p-5">
+
+                        <div class="MsgLogIn col-12 d-flex justify-content-between p-2 ">
+                            <span class="d-flex">
+                                <i class='far fa-comment-alt ml-2'></i>
+                                <p>فقط اعضای سایت می توانند نظر دهند</p>
+                            </span>
+                            <p class="mr-auto">ثبت نام / ورود</p>
+                        </div>
+                        <div class="mt-4">
+                            <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                    style="font-size: 20px;color: #6a6a6a;"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                    style="font-size: 20px;color: #6a6a6a;"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                    style="font-size: 20px;color: #c7c7c7;"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                    style="font-size: 20px;color: #c7c7c7;"></i></a>
+                            <a href="#" data-toggle="modal" data-target="#myModal"><i class='fas fa-star'
+                                    style="font-size: 20px;color: #c7c7c7;"></i></a>
+                        </div>
+
+
+                        <div class="cm d-flex flex-wrap  border rounded p-3 mt-4">
+                            <img src="./Img/images/davidbeckham2018.jpg" class=" rounded-circle ml-3"
+                                style="width:55px;">
+                            <h5 class="ml-3" style="font-family: Yekan;">مهدی فاضلی</h5>
+                            <p style="color: #6a6a6a;font-family: Yekan;">نظرت برامون مهمه.امتیاز و نظرات شما کیفیت این
+                                بازی را مشخص میکند.</p>
+                            <div class="msg-box col-12 p-2 ">
+                                <p>متاسفانه زلزله شمار کثیری از هموطنان مان را در غرب کشور سوگوار و بیخانمان کرده است.
+                                    بعد از همبستگی بی نظیر هموطنانمون و تهیه وسایل مورد نیاز و شرایط اسکان موقت بر آن
+                                    شدیم
+                                    فاز 2 و 3 حمایت از زلزله زدگان را اغدام کنیم و برای ساخت و محکم سازی خانه هایشان
+                                    آستین بالا بزنیم.
+                                </p>
+                                <p>می خواهیم با همیاری شما همیشه همراهان عزیز،خانه های حداقل یک روستا را با سازه های
+                                    زلزله زده محکم سازی کرده و دلهایشان را قرص که دیگر زمین لرزه ها خاه هایشان را
+                                    نلرزاند.
+                                </p>
+                            </div>
+                            <div class="btn btn-info mr-auto mt-3">ارسال دیدگاه</div>
+                        </div>
+
+                        
+                        <div class="cm d-flex flex-wrap border rounded p-3 mt-4">
+
+                            <img src="./Img/images/davidbeckham2018.jpg" class=" rounded-circle ml-3"
+                                style="width:55px;">
+                            <h5 class="ml-3" style="font-family: Yekan;">نیلوفر فرجی</h5>
+                            <p style="color: #6a6a6a;font-family: Yekan;">| 22 اردیبهشت 96</p>
+                            <div class="msg-box-r col-12 p-2 ">
+                                <p> خیلی وقته دیگه وقتی به پروژه کمک می کنم ، احساس رضایت نمی کنم! فقط حالماز این همه
+                                    فقری که دورو برم هست
+                                    به هم میخوره.و از تع دل آرزو میکنم دیگه هیچ نیازی به هیچ خیریه ای در هیچ کجای دنیا
+                                    وجود نداشته باشه.
+                                </p>
+                            </div>
+                        
+                            <div class="OptionReply col-12 d-flex">
+                                <p class="btn OptionBox ml-2 ">
+                                    <i class='fas fa-share-square'></i>
+                                    پاسخ
+                                <p>
+                                <p class="btn OptionBox ml-2">
+                                    <i class='fas fa-thumbs-down'></i>
+                                    5
+                                </p>
+                                <p class="btn OptionBox">
+                                    <i class='fas fa-thumbs-up'></i>
+                                    13
+                                </p>
+                                <p class="btn OptionBox mr-auto">
+                                    <i class='fas fa-exclamation-triangle '></i>
+                                    گزارش
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="cm d-flex flex-wrap border rounded p-3 mt-4">
+
+                            <img src="./Img/images/davidbeckham2018.jpg" class=" rounded-circle ml-3"
+                                style="width:55px;">
+                            <h5 class="ml-3" style="font-family: Yekan;">مهدی فاضلی</h5>
+                            <p style="color: #6a6a6a;font-family: Yekan;">| 22 اردیبهشت 96</p>
+                            <div class="AnswerCm col-12 d-flex justify-content-start mb-0 mt-2">
+                                <p>
+                                    <i class='fas fa-share-square ml-1 mt-1'></i>
+                                    در پاسخ  به حمید رضا انصاری
+                                </p>
+                            </div>
+
+                            <div class="msg-box-r col-12 p-2 mt-0">
+                                <p class="mb-0">نیلوفر فرجی عزیز ،</p>
+                                <p> ما هم مثل شما امیدواریم جهانی پر برکت و سر شار از صلح داشته باشیم، اما این اتفاق نمی افته مگر با همدلی و 
+                                    اتحاد بین همه ی ما انسان ها.به امید اینکه بتونیم یه روز باهم بسازیم.
+                                </p>
+                            </div>
+                        
+                            <div class="OptionReply col-12 d-flex">
+                                <p class="btn OptionBox ml-2 ">
+                                    <i class='fas fa-share-square'></i>
+                                    پاسخ
+                                <p>
+                                <p class="btn OptionBox ml-2">
+                                    <i class='fas fa-thumbs-down '></i>
+                                    5
+                                </p>
+                                <p class="btn OptionBox">
+                                    <i class='fas fa-thumbs-up'></i>
+                                    13
+                                </p>
+                                <p class="btn OptionBox mr-auto">
+                                    <i class='fas fa-exclamation-triangle '></i>
+                                    گزارش
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!------------ ROW_2 ------------>
+    <div class="container">
+        <div class="row">
+            <!--------------- Right-Panel --------------->
+            <div class="col-12 col-md-8 p-0">
+                <div class="MsgLogIn  d-flex justify-content-between p-2 ">                      
+                    <p><i class='far fa-comment-alt ml-2'></i>فقط اعضای تیکت اسپرت می توانند از خدمات سایت بهره مند شوند </p>
+                    <p>ثبت نام / ورود</p>
+                </div>
+                <div class="SelectTeam mt-2 border-dotted pb-4">
+                    <span>
+                        <p>1.طرفدار کدوم تیم هستید؟</p>
+                    </span>
+                    <section class="d-flex flex-wrap justify-content-center">
+                        <div class="Rteam col-12 col-md-6  ">
+                            <h3>استقلال</h3>
+                        </div>
+                        <div class="lteam col-12 col-md-6 mt-2 mt-md-0">
+                            <h3>پرسپولیس</h3>
+                        </div>
+                    </section>
+                </div>
+                <div class="SelectArea mt-2 border-dotted pb-4">
+                    <span>
+                        <p class="mt-4 " style="text-align: right;font-family: Yekan;">2.کدام ناحیه از ورزشگاه؟</p>
+                    </span>
+                    <div class="PicStadium mt-5">
+                        <img src="./Img/images/Area.jpg" class="rounded mx-auto d-block w-50" alt="AreaStadium">
+                        <div class="Area-A">
+                            <h3>A</h3>
+                        </div>
+                        <div class="Area-B">
+                            <h3>B</h3>
+                        </div>
+                        <div class="Area-C">
+                            <h3>C</h3>
+                        </div>
+                        <div class="Area-D">
+                            <h3>D</h3>
+                        </div>
+                    </div>
+                    <div class="AreaBtn d-flex flex-wrap justify-content-between p-0 ">
+                        <div class="style-btn col-12 col-lg-6 btn d-flex align-items-center mt-5 ">
+                            <h5 style="color: black;">A</h5>
+                            <section class="txt-btn">
+                                <p class="m-0">یال شمالی</p>
+                                <p>ویژه طرفداران استقلال</p>
+                            </section>
+                        </div>
+                        <div class="style-btn col-12 col-lg-6 btn  d-flex align-items-center mt-3 mt-lg-5 ">
+                            <h5 style="color: black;">B</h5>
+                            <section class="txt-btn">
+                                <p class="m-0">یال شرقی (طبقه دوم)</p>
+                                <p>ویژه طرفداران استقلال</p>
+                            </section>
+                        </div>
+                        <div class="select-btn col-12 col-lg-6 btn  d-flex align-items-center mt-3">
+                            <h5 style="color: black;">C</h5>
+                            <section class="txt-btn">
+                                <p class="m-0">یال شرقی (طبقه اول)</p>
+                                <p>ویژه طرفداران استقلال</p>
+                            </section>
+                        </div>
+                        <div class="style-btn col-12 col-lg-6 btn  d-flex align-items-center mt-3 ">
+                            <h5>D</h5>
+                            <section class="txt-btn">
+                                <p class="m-0">یال جنوبی</p>
+                                <p>ویژه طرفداران استقلال</p>
+                            </section>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="ReserveSeat">
+                    <span>
+                        <p class="mt-4 " style="text-align: right;font-family: Yekan;">3.تعداد صندلی و انتخاب جایگاه؟
+                        </p>
+                    </span>
+                    <div class="img-seat mt-5">
+                        <section class="row-1">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                        </section>
+                        <section class="row-2 d-flex flex-wrap justify-content-center mt-3">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatg.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatg.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatg.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatg.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatg.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatg.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat ml-1" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat ml-1" alt="">
+                        </section>
+                        <section class="row-3 mt-3">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatr.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                            <img src="./Img/images/seatw.jpg" class="Seat" alt="">
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!----------------------------Subscribe-Game_SECTION---------------------------------------->
+    <div class="container-fluid Subscribe mt-5 pt-4 pb-3">
+        <div class="container d-flex justify-content-around flex-wrap mt-4 ">
+            <div class="sub-text">
+                <h5>از تیکت اسپرت با خبر باشید.</h5>
+                <p style="color: #7cd8e8;">با اشتراک در خبرنامه تیکت اسپرت در جریان رویدادها و تخفیف های ما باشید.</p>
+            </div>
+            <form>
+                <div>
+                    <div class="input-group mycustom">
+                        <input type="text" class="form-control rounded" placeholder="ایمیل خود را وارد کنید"
+                            aria-describedby="inputGroupPrepend2" required>
+                        <div class="input-group-prepend">
+                            <input type="submit" vlaue="submit" class="btn btn-dark btn-sm rounded"
+                                id="inputGroupPrepend2">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!----------------------------Footer-Game_SECTION---------------------------------------->
+    <div class="container footer mt-5 pt-4 d-flex flex-wrap">
+        <div class="col-12 mb-5 col-md-6 col-lg-4 d-flex flex-column justify-content-start align-items-start">
+            <section class="row-a">
+                <img src="./Img/images/berand-1.gif" alt="">
+            </section>
+            <section class="row-b mt-5 mb-3">
+                <a href="#">
+                    <p>info@ticketsport.ir</p>
+                </a>
+                <p>تهران ،خیابان شریعتی ، پایین تر از ظفر، بن بست افضل ،پلاک 20</p>
+                <p>پشتیبانی : 021-264053599</p>
+            </section>
+            <section class="row-c mt-5 mr-1 d-flex justify-content-start align-items-center">
+                <i class="fab fa-twitter ml-4 " style="font-size:30px;color: gray;"></i></a>
+                <a href="#"><i class="fab fa-instagram ml-4" style="font-size:30px;color: gray;"></i></a>
+                <a href="#"><i class="fab fa-facebook ml-4 " style="font-size:30px;color: gray;"></i></a>
+                <a href="#"><i class="fab fa-telegram ml-4" style="font-size:30px;color: gray;"></i></a>
+            </section>
+        </div>
+        <div class="col-12 mb-5 col-md-6 col-lg-4 d-flex ">
+            <section class="col-6 col-a">
+                <a href="#">
+                    <p>دسته بندی ورزشی</p>
+                </a>
+                <a href="#">
+                    <p>ورزشگاه ها</p>
+                </a>
+                <a href="#">
+                    <p>تیم های ورزشی</p>
+                </a>
+                <a href="#">
+                    <p>وبلاگ ها</p>
+                </a>
+                <a href="#">
+                    <p>درباره ما</p>
+                </a>
+                <a href="#">
+                    <p>ارتباط با ما</p>
+                </a>
+
+            </section>
+            <section class="col-6 col-a">
+                <a href="#">
+                    <p>راهنما</p>
+                </a>
+                <a href="#">
+                    <p>سوالات متداول</p>
+                </a>
+                <a href="#">
+                    <p> تیکت اسپرت چطور کار می کند </p>
+                </a>
+                <a href="#">
+                    <p>شرایط استفاده</p>
+                </a>
+                <a href="#">
+                    <p>حریم خصوصی</p>
+                </a>
+                <a href="#">
+                    <p>نقشه سایت</p>
+                </a>
+            </section>
+        </div>
+        <div
+            class="col-12 mb-5 col-md-6 col-lg-4 d-flex flex-column justify-content-center align-items-start justify-content-lg-end align-items-lg-end">
+            <section class="rc-1">
+                <a href="">
+                    <h5>دانلود نرم افزارهای تیکت اسپرت</h5><a href=""></a>
+                    <p style="color: gray;">همیشه همراه شماییم</p>
+            </section>
+            <section class="rc-2 mt-4 mb-5 ">
+                <a href="#"><i class="fab fa-apple mr-4 " style="font-size:30px;color: gray;"></i></a>
+                <a href="#"><i class="fab fa-android mr-4" style="font-size:30px;color: gray;"></i></a>
+                <a href="#"><i class="fab fa-windows mr-4 " style="font-size:30px;color: gray;"></i></a>
+            </section>
+            <section class="rc-3 mt-5">
+                <a href="#"><img src="./Img/images/foter1 (1).gif" alt=""></a>
+                <a href="#"><img src="./Img/images/foter1 (2).gif" alt=""></a>
+            </section>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="./JQueery/jquery-1.10.2.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+
+</html>

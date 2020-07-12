@@ -5,16 +5,16 @@
     direction: rtl;
 }
 @font-face {
-      font-family: IranSans;
-      src: url("../Fonts/IRANSans/IRANSans-web.eot");
-      src: url("../Fonts/IRANSans/IRANSans-web.ttf") format("ttf"),url("../Fonts/IRANSans/IRANSans-web.woff") format("woff");
-      font-weight: 500;
+    font-family: IranSans;
+    src: url("../Fonts/IRANSans/IRANSans-web.eot");
+    src: url("../Fonts/IRANSans/IRANSans-web.ttf") format("ttf"),url("../Fonts/IRANSans/IRANSans-web.woff") format("woff");
+    font-weight: 500;
 }
 @font-face {
-    font-family: Yekan;
-    src: url("../Fonts/yekan/Yekan.eot");
-    src: url("../Fonts/yekan/Yekan.ttf") format("ttf"),url("../Fonts/yekan/Yekan.woff") format("woff");
-    font-weight: 800;
+  font-family: Yekan;
+  src: url("../Fonts/yekan/Yekan.eot");
+  src: url("../Fonts/yekan/Yekan.ttf") format("ttf"),url("../Fonts/yekan/Yekan.woff") format("woff");
+  font-weight: 800;
 }
 .bg-img {
     background: url(../Img/images/back-head.gif);
@@ -448,6 +448,16 @@
     .AnswerCm{
         font-family: Yekan;
         color: green;
+    }
+    .Confirm {
+        background-color: #30c070;
+        color :white;
+        font-family: Yekan;
+        text-align: right;
+    }
+    .sum {
+        font-family: Yekan;
+        text-align: right;
     }
     
     /* media queries */

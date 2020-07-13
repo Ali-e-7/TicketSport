@@ -16,6 +16,16 @@
   src: url("../Fonts/yekan/Yekan.ttf") format("ttf"),url("../Fonts/yekan/Yekan.woff") format("woff");
   font-weight: 800;
 }
+.bg-full{
+    background: url(../Img/images/back-head.gif);
+    background-color: rgb(4, 75, 35);
+    background-blend-mode: screen;
+    background-size: cover;
+}
+.R-C{
+    background-color: white;
+    border-radius: 10px;
+}
 .MsgLogIn {
     font-family: Yekan;
     background-color: #e5424d;

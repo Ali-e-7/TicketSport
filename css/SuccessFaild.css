@@ -75,3 +75,20 @@
     font-family: Yekan;
     background-color: white;
 }
+.sharing-f {
+    text-align: center;
+    font-family: Yekan;
+    background-color: white;
+}
+.Confirm-f{
+    background-color: #d30000;
+    color: white;
+    font-family: Yekan;
+    text-align: right;
+}
+.text-f {
+    text-align: center;
+    font-family: Yekan;
+    color: white;
+    font-size: 14px;
+}
